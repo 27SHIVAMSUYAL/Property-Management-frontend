@@ -1,0 +1,17 @@
+# Auto normalize line endings
+* text=auto
+
+
+# Treat all JS and JSON files as UTF-8
+*.js text eol=lf
+*.json text eol=lf
+
+# Keep shell scripts executable
+*.sh text eol=lf
+
+# Ignore binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
